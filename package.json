@@ -8,7 +8,7 @@
         "dist"
     ],
     "engines": {
-        "node": ">=10.0.0"
+         "node": "18.x"
     },
     "scripts": {
         "build": "tsx update-version.ts && npm run build:copy-package && tsc && tsc-alias",
