@@ -8,7 +8,7 @@
         "dist"
     ],
     "engines": {
-         "node": "18.x"
+        "node": "11.x"
     },
     "scripts": {
         "build": "tsx update-version.ts && npm run build:copy-package && tsc && tsc-alias",
@@ -56,18 +56,18 @@
         "websocket": "^1.0.35"
     },
     "devDependencies": {
-        "ws": "^8.18.2",
-        "ts-proto": "^2.6.1",
         "@babel/cli": "^7.17.0",
         "@babel/core": "^7.17.2",
         "@babel/preset-env": "^7.16.11",
         "@types/node": "^22.15.3",
         "@types/websocket": "^1.0.10",
         "@types/ws": "^8.18.1",
-        "cpx": "^1.5.0",
+        "cpx": "^1.2.1",
         "dotenv": "^16.5.0",
         "prettier": "2.5.1",
+        "ts-proto": "^2.6.1",
         "tsc-alias": "^1.8.15",
-        "typescript": "^4.8.2"
+        "typescript": "^4.8.2",
+        "ws": "^8.18.2"
     }
 }
